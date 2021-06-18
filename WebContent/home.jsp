@@ -42,9 +42,13 @@ table#nat{
 	<td><%= Persent %></td>
 </tr>
 <tr>
-	<td>Marks</td>
-	<td><%= Marks %></td>
+	<td>Year passed</td>
+	<td><%= yop %></td>
 </tr>
+<tr>
+	<td>Marks</td>
+	<td><%= mar %></td>
+</tr>	
 </table>
 </body>
 </html>
