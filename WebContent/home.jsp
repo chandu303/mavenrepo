@@ -18,7 +18,8 @@ table#nat{
 	String age = request.getParameter("age");
 	String Qual = request.getParameter("qual");
 	String Persent = request.getParameter("percent");
-	String Year = request.getParameter("yop"); %>
+	String Year = request.getParameter("yop");
+	String Marks = request.getParameter("mar");%>
 <table id ="nat">
 <tr>
 	<td>Full Name</td>
@@ -41,8 +42,8 @@ table#nat{
 	<td><%= Persent %></td>
 </tr>
 <tr>
-	<td>Year of Passout</td>
-	<td><%= Year %></td>
+	<td>Marks</td>
+	<td><%= Marks %></td>
 </tr>
 </table>
 </body>
